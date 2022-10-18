@@ -1,10 +1,10 @@
 .father {
-    background: red;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 20px;
     width: 500px;
+    font-size:16px;
 }
 .cards {
     background:blue ;
@@ -18,10 +18,20 @@
 h1{
     font-style: italic;
     color: white;
+    text-align: center;
 }
 .conteiner{
     background: white;
     color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    background: cornflowerblue;
+    width: 150px;
+    height: 150px;
+    display: flex;
     justify-content: center;
     align-items: center;
+
 }
