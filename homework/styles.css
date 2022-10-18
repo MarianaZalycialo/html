@@ -1,0 +1,27 @@
+.father {
+    background: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+}
+.cards {
+    background:blue ;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-style: italic;
+    color: white;
+}
+.conteiner{
+    background: white;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
