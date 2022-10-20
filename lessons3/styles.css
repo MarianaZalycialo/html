@@ -1,0 +1,54 @@
+.father {
+    background: #ffc4c4;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+.child {
+    background: brown;
+    width: 600px;
+    height: 80px;
+    position: relative;
+
+}
+.button{
+    background: #ffc4c4;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 14px;
+    left: 15px;
+}
+img{
+    width:30px ;
+    height: 30px;
+
+}
+.icon{
+    position: absolute;
+    top: 14px;
+    right: 15px;
+
+}
+.big{
+    background: #0015ff;
+    width: 600px;
+    height: 400px;
+}
+.box{
+    background: #ffc4c4;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+
+
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    position: relative;
+    bottom: -350px;
+    z-index: 1;
+}
