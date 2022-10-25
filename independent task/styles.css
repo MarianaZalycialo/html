@@ -1,0 +1,17 @@
+.father {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+.box1, .box2, .box3, .box4, .box5 {
+background: #0015ff;
+border: 1px solid black;
+width: 200px;
+height: 200px;
+
+
+}
