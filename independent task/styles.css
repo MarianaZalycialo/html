@@ -1,17 +1,58 @@
 .father {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-
+    width: 100%;
+    background: url(img/istockphoto-1341408852-640x640.jpg) no-repeat center;
+    background-size:cover ;
+    position: relative;
 
 }
-.box1, .box2, .box3, .box4, .box5 {
-background: #0015ff;
-border: 1px solid black;
-width: 200px;
-height: 200px;
+.logo{
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
 
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    padding-top: 26px;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    padding: 20px 40px;
 
+}
+.non{
+    display: flex;
+    gap: 17px;
+    font-size: 17px;
+    padding-top: 15px;
+    list-style: none;
+}
+.get-started{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 5px;
+}
+.menu-link{
+    color: white;
+}
+h1{
+    color: white;
+}
+.main-text{
+    text-align: center;
+    padding: 150px 50px;
+}
+.one, .two, p {
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
