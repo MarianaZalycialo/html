@@ -4,11 +4,12 @@
     display: flex;
     flex-direction: column;
     background: #ffffff;
+    margin: 0 auto;
 }
 .box1{
     background: gold;
     width: 100%;
-    height: 33% ;
+    height: 20% ;
     display: flex;
     justify-content:center ;
     align-items: center;
@@ -17,18 +18,17 @@
 .boxesf {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 .box2f {
-    width: 100%;
-    height: 68%;
-    background: #ffc4c4;
+    width: 70%;
+    height: 100%;
     margin-right: 10px;
 }
 .bb{
     background: red;
     width: 100%;
-    height: calc(52% - 10px);
+    height: calc(50% - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@
 }
 .cde{
     width: 100%;
-    height: 51%;
+    height: 50%;
     background: #ffffff;
     display: flex;
     column-gap: 10px;
@@ -70,8 +70,17 @@
 .box3{
     background: #0004ff;
     width: 30%;
-    height: 70%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (min-width:0) and (max-width:600px){
+    .father{
+        width: 100%;
+        height: 400px;
+    }
+    .boxesf {
+        display: initial;
+    }
 }
